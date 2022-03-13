@@ -1,0 +1,219 @@
+body {
+    background-color: #12154c;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#home_appstart {
+    color: white;
+    font-family: Gochi Hand;
+    font-size: 20px;
+    letter-spacing: 2px;
+    float: right;
+    margin-top:-33px;
+    margin-right: 15px;
+}
+
+#div_appstart {
+    background-color: #ffffff;
+    width: 1015;
+    height: 540px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#div_left {
+    text-align: left;
+}
+
+#img_home_page {
+    float: right; 
+    margin-top:-45px;
+    margin-right: 15px;
+}
+
+#heading_appstart{
+    color: white;
+    font-family: Gochi Hand;
+    font-size: 20px;
+}
+
+.button_recents{
+    color: white;
+    background-color: #f6530f;
+    font-family: Gochi Hand;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#div_contain_item{
+    background-color: white;
+    height: 1300px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.p_app_start{
+    font-size: 16px;
+    margin-left: 250px;
+    font-family:  Verdana;
+    margin-top: 15px;
+    color: black;
+}
+
+.nav_buttons{
+    padding: 5px;
+    background-color: #12154c;
+    font-family: Verdana;
+    color: white;
+}
+
+.icon_nav{
+   background-color: #12154c;
+   color: white;   
+}
+
+.nav_bar_buttons{
+    width: 90px;
+    height: 30px;
+    background-color: #f6530f;
+    padding: 10px;
+    margin-top: 13px;
+    text-decoration: inherit;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    font-family: Verdana;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav_bar_buttons:hover{
+    width: 90px;
+    height: 30px;
+    background-color: #f6530f;
+    padding: 10px;
+    margin-top: 13px;
+    text-decoration: inherit;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#input{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    margin-top: -45px;
+    text-decoration: inherit;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 12px;
+    text-align: left;
+    font-family: Verdana;
+    font-weight: bold;   
+}
+
+
+
+
+
+
+
+
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 1200px; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    left: 0;
+    color: white;
+    background-color: #12154c; /* Black*/
+    overflow-x: scroll; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    font-family: Verdana;
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: white;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 300px;
+  color: white;
+}
+
+.closebtn{
+   color: white;
+   position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+    background-color: transparent;
+  color: black;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .3s; /* If you want a transition effect */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.p_info_class{
+  margin-left: 50px;
+  color: black;
+  font-family: Verdana;
+  font-size: 16px;
+}
+
+#p_info_1{
+  font-size: 20px;
+}
+
+@media screen and (max-width:450px){
+
+}

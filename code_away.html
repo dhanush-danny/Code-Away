@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code-Away</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="code_away.css">
+</head>
+
+<body onload="body_onload_p()">
+  <row id="div_left">
+
+    <img src="logo.jpg" width="100px" height="110px" style="margin-left: 10px;">
+    <br>
+    <label id="heading_appstart" style="margin-left: 10px;">Code-Away</label>
+
+    <img src="home.png" width="50px" height="50" id="img_home_page" onclick="home()">
+    <br>
+    <label id="home_appstart">Home</label>
+
+  </row>
+  <nav class="navbar navbar-inverse nav_buttons nav" style="border:1px #f6530f solid;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle icon_nav" data-toggle="collapse" data-target="#myNavbar"
+          style="background-color: #12154c">
+          <span class="icon-bar icon_nav" style="color: white;"></span>
+          <span class="icon-bar icon_nav" style="color: white;"></span>
+          <span class="icon-bar icon_nav" style="color: white;"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <h1 class="active nav_bar_buttons" onclick="css_nav()">CSS</h1>
+        <h1 class="active nav_bar_buttons" onclick="html_nav()">HTML</h1>
+        <h1 class="active nav_bar_buttons" onclick="js_nav()">JavaScript</h1>
+        <h1 class="active nav_bar_buttons" onclick="module_nav()">Module's</h1>
+        <h1 class="active nav_bar_buttons" onclick="python_nav()">Python</h1>
+        <h1 class="active nav_bar_buttons" onclick="p5_nav()">P5.js</h1>
+        <input placeholder="  Search.." type="text" class="active" id="input"></h1>
+      </div>
+    </div>
+  </nav>
+  <div id="div_contain_item">
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
+
+    <div id="mySidebar" class="sidebar">
+      <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#a_1">CSS Introduction</a>
+      <a href="#a_2">CSS Syntax</a>
+      <a href="#a_3">CSS Selectors</a>
+      <a href="#a_4">CSS Color</a>
+      <a href="#a_5">CSS Gradients</a>
+      <a href="#a_6">CSS Backgrounds</a>
+      <a href="#a_7">CSS Fonts</a>
+      <a href="#a_8">CSS Font-Family</a>
+      <a href="#a_9">CSS Font-Weight</a>
+      <a href="#a_10">CSS Font-Style</a>
+      <a href="#a_11">CSS Font-Size</a>
+      <a href="#a_12">CSS Borders</a>
+      <a href="#a_13">CSS Border-Style</a>
+      <a href="#a_14">CSS Border-Width</a>
+      <a href="#a_15">CSS Border-Image</a>
+      <a href="#a_16">CSS Border-Color</a>
+      <a href="#a_17">CSS Rounded Corners</a>
+      <a href="#a_18">CSS Buttons</a>
+      <a href="#a_19">CSS Float</a>
+      <a href="#a_20">CSS Tables</a>
+      <a href="#a_21">CSS Lists</a>
+      <a href="#a_22">CSS Alignment</a>
+      <a href="#a_23">CSS Position</a>
+      <a href="#a_24">CSS Z-Index</a>
+      <a href="#a_25">CSS Overflow</a>
+      <a href="#a_26">CSS Image-Gallery</a>
+      <a href="#a_27">CSS Padding</a>
+      <a href="#a_28">CSS Margin</a>
+      <a href="#a_29">CSS Icons</a>
+      <a href="#a_30">CSS Opacity</a>
+      <a href="#a_31">CSS Inputs</a>
+      <a href="#a_32">CSS Navigation-bar</a>
+      <a href="#a_33">CSS Units</a>
+      <a href="#a_34">CSS Math-Functions</a>
+      <a href="#a_35">CSS Transform</a>
+      <a href="#a_36">CSS Animations</a>
+      <a href="#a_37">CSS User-Interface</a>
+      <a href="#a_38">CSS Dropdowns</a>
+      <a href="#a_39">CSS Text Alignment</a>
+      <a href="#a_40">CSS Animations</a>
+    </div>
+    <p id="p_info_1" class="p_info_class"></p>
+    <p id="p_info_2" class="p_info_class"></p>
+    <p id="p_info_3" class="p_info_class"></p>
+    <p id="p_info_4" class="p_info_class"></p>
+    <p id="p_info_5" class="p_info_class"></p>
+    <p id="p_info_6" class="p_info_class"></p>
+    <p id="p_info_7" class="p_info_class"></p>
+    <p id="p_info_8" class="p_info_class"></p>
+    <p id="p_info_9" class="p_info_class"></p>
+    <p id="p_info_10" class="p_info_class"></p>
+  </div>
+  <script src="code_away.js"></script>
+</body>
+
+</html>

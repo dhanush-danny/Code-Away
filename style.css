@@ -1,0 +1,27 @@
+body {
+    background-color: #12154c;
+}
+
+#heading_home {
+    color: white;
+    font-family: Gochi Hand;
+    font-size: 40px;
+}
+
+#welcome_home {
+    color: white;
+    font-family: Gochi Hand;
+    font-size: 20px;
+}
+
+#enter_home {
+    color: white;
+    font-family: Gochi Hand;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#img_next_page{
+    margin-top: 125px;
+    
+}
